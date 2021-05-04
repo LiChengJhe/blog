@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Len's Blog
+title: CJ's Blog
 subtitle: ''
 description: ''
 keywords:
-author: Len
+author: CJ
 language: zh-TW
 timezone: 'Asia/Taipei'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: "https://lichengjhe.github.io"
+url: "https://chengjhe.github.io"
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -41,7 +41,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -98,12 +98,11 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
   repo:
-    repository: git@github.com:LiChengJhe/LiChengJhe.github.io.git
-    branch: master
+    repository: git@github.com:ChengJhe/ChengJhe.github.io.git
