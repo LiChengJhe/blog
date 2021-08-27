@@ -79,3 +79,9 @@ date: 2021/08/27
             pivotTable.LayoutForm = XlLayoutFormType.xlOutline;
 
 ```
+
+在表格中啟用拖曳欄位:
+```c
+            // 啟用拖曳欄位
+            pivotTable.InGridDropZones = true;
+```
