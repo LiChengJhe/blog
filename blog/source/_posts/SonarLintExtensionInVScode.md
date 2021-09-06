@@ -15,6 +15,8 @@ SonarLint能在IDE上面顯示錯誤和安全漏洞，並提供修復指南，�
 ![](https://github.com/SonarSource/sonarlint-vscode/raw/HEAD/images/sonarlint-vscode.gif)
 ![](https://github.com/SonarSource/sonarlint-vscode/raw/HEAD/images/sonarlint-rule-description.gif)
 
+<!-- more --> 
+
 # 安裝SonarLint Extension
 ![](https://i.imgur.com/k5qQMbL.png)
 

@@ -13,7 +13,7 @@ updated: 2021/08/09
 Vue 3 的Composition API 提供兩種資料響應方式分別是 ref 和 reactive，其中ref適用於監聽簡單型別的資料、reactive適用於監聽複雜型別的資料(物件、陣列)。
 過去我們使用Vuex來管理狀態來幫助我們處裡資料響應的問題，但同時我們也寫了很多很多的action、getter、mutations、state；現在不訪可試試看寫寫簡單的reactive來達成資料響應的功能。
 
-
+<!-- more --> 
 # 範例
 這裡有一個簡單的reactive範例，在上面Input元件輸入資料，則下面的Info要顯示輸入的資料。
 ![](https://imgur.com/N1SW2AJ.png)
