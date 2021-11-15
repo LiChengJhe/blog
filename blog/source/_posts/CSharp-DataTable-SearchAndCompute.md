@@ -10,7 +10,6 @@ date: 2021/11/15
 ---
 
 {% img https://i.imgur.com/NRXpcll.png 500 %}
-作者：Len
 
 平常在寫VSTO最常碰到的資料物件就是DataTable，今天來整理一下它的幾種搜尋方式與計算方法。
 
