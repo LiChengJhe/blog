@@ -2,6 +2,7 @@
 title: 使用Chrome內建的Recorder錄製網頁操作行為
 categories:
     - 技術文件
+    - Chrome
 tags: [Chrome]
 date: 2022/02/09
 updated: 2022/02/09
@@ -9,8 +10,6 @@ thumbnail: https://www.kocpc.com.tw/wp-content/uploads/2019/08/1565382278-af5729
 ---
 
 {% img https://www.kocpc.com.tw/wp-content/uploads/2019/08/1565382278-af5729af76e9880fd1125df44a67e591.jpg 500 %}
-
-作者：Len Li
 
 在開發網頁的過程中，必免不了不斷的測試功能，有時候專案需求很緊急，可能沒有時間撰寫像Cypress這類的E2E測試，在不得己的情況下只能手動測試功能。
 幸運的是最近Chrome更新內建了一個實驗性工具Recorder，它可以透過錄製的方式記錄網頁的操作行為，並將其轉換成自動化腳本，能讓我們省下不少測試時的時間成本。
