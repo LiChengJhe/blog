@@ -33,6 +33,3 @@ Token可以在SonarQube Web底下的Account/Security頁面產生。
 
 ProjectKey可以在SonarQube Web底下的Project Information頁面找到它。
 ![](https://i.imgur.com/9Py2rWR.png)
-
-
-
