@@ -32,7 +32,7 @@ npm install vue-cli-plugin-pug --save-dev
 </template>
 ```
 
-# Use Pug to short html
+# Use Pug to short HTML
 這是一個簡單的報表頁面，接下來我們將用Pug來簡化HTML，以及使用[extends和block](https://pugjs.org/language/inheritance.html)來處理HTML重複的問題。
 現在讓我們簡單用一個報表頁面來講解，整個簡化HTML的過程。
 ![](https://i.imgur.com/l2tXbT2.png)
