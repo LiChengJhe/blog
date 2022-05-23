@@ -3,9 +3,8 @@ title: 常用的DataTable搜尋方式與計算方法
 thumbnail: https://i.imgur.com/NRXpcll.png
 categories: 
 	- 技術文件
-    - .NET
 	- C#
-tags: [CSharp, .NET]
+tags: [CSharp]
 date: 2021/11/15
 ---
 

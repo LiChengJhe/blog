@@ -3,9 +3,8 @@ title: How To Invoke Method On Main Thread
 thumbnail: https://i.imgur.com/NRXpcll.png
 categories: 
 	- 技術文件
-    - .NET
 	- C#
-tags: [CSharp, .NET]
+tags: [CSharp]
 date: 2022/03/07
 ---
 

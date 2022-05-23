@@ -4,7 +4,7 @@ categories:
   - 技術文件
 	- Visual Studio Code
 thumbnail: https://code.visualstudio.com/assets/favicon.ico
-tags: [ VScode]
+tags: [VScode]
 date: 2021/05/19
 updated: 2021/05/19
 ---

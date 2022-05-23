@@ -4,7 +4,7 @@ thumbnail: https://i.imgur.com/6TgSUaY.png
 categories: 
 	- 技術文件
 	- VSTO
-tags: VSTO
+tags: [VSTO]
 date: 2021/08/27
 ---
 
