@@ -73,7 +73,7 @@ date: 2022/05/23
 	}
 ```
 ### # 執行結果
-![](https://i.imgur.com/REtF4EJ.png)
+![](https://i.imgur.com/KKW06Nl.png)
 修改的行索引[0]，原來數值是Andy，現在的新數值AndyLu  
 刪除的行索引[1]，原來數值是Jack  
 新增行索引[2]，數值是Anny  
