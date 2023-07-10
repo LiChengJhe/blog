@@ -12,7 +12,7 @@ date: 2023/07/10
 {% img https://i.imgur.com/0rfm2iE.png 500 %}
 
 ChatGPT已經逐漸融入了我們的生活之中，對於程式開發工作也有著不少幫助，像是JSON轉換成其他語言的Class或是資料格式之間的轉換，我們都可以第一時間透過ChatGPT來完成，
-儘管ChatGPT如此強大，倘若沒有良好的Prompt，ChatGPT也無法產生出你所預想結果，甚至很可能演變成一本正經的胡說八道情況。
+儘管ChatGPT如此強大，倘若沒有良好的Prompt，ChatGPT也無法產生出你所預想的結果，甚至很可能演變成一本正經的胡說八道情況。
 因此本篇來介紹Functional Prompt，讓我們用Functional Programming的概念寫出優良又簡短Prompt讓ChatGPT為我們做事!!
 <!-- more -->
 
