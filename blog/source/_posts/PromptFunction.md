@@ -36,7 +36,7 @@ ABC
 ```
 
 ### # 規則二 : Function必須具有清楚明瞭的語意，並且單一職則
-亦可使用多個Function來完成一連串操作，如以下範例將Json Object轉換成C# Class，並且以Pascal作為命名規則。
+亦可使用多個Function來完成一連串操作，如以下範例將JSON Object轉換成C# Class，並且以Pascal作為命名規則。
 
 範例Prompt:
 ```js
@@ -61,7 +61,7 @@ public class JsonClass
 ```
 
 ### # 規則三 : 可以使用Anonymous Function，作為語意補充的方法
-例如將Json Object的欄位映射到另一個Json Array內。
+例如將 JSON Object的欄位映射到另一個 JSON Array。
 
 範例Prompt:
 ```js
