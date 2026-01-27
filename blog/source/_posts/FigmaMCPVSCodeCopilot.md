@@ -8,7 +8,7 @@ tags: GitHub Copilot, Figma, MCP
 date: 2026/01/27
 ---
 
-{% img https://thumbs2.imgbox.com/7e/7e/S5EqEUQJ_t.png 500 %}
+{% img https://thumbs2.imgbox.com/6c/fa/85AAUalh_t.png 500 %}
 
 
 
