@@ -322,112 +322,62 @@ codegraph watch
 放入以下完整內容。
 
 ```yaml
-codegraph:
-  priority:
-    - use CodeGraph MCP as primary tool for any code-related task
-    - prefer it before any repository/file exploration
-
-  intent:
-    - avoid read_file/grep/glob-first workflows
-    - avoid deriving relationships from raw scanning
-    - always narrow scope via CodeGraph MCP first
-
-  required_when:
-    - locate implementation
-    - understand behavior/architecture
-    - plan/implement/review/refactor/debug
-    - analyze dependencies/impact
-    - find related files/symbols/callers/callees
-    - trace data/control flow
-
-  workflow:
-    - use CodeGraph MCP
-    - identify target symbols
-    - identify related symbols
-    - identify callers/callees
-    - analyze dependencies + impact
-    - read only affected files
-    - perform minimal change
-
-  file_access:
-    - only after MCP scope narrowing
-    - only directly affected files
-    - minimize reads
-    - no exploratory or wide scanning
-
-  forbidden:
-    - grep/glob/read-first workflows
-    - recursive or repo-wide exploration before MCP
-    - using file reads to infer architecture/dependencies/call chains/impact
-    - reading unrelated files or broad directories
-
-  fallback:
-    - use file search only if MCP insufficient
-    - keep minimal and scoped
-    - explain why fallback is needed
-
 core:
-  - no assumptions
-  - do only requested task
-  - minimal change
-  - no hidden errors
-  - no execution/debug/log inspection
+- always use codegraph mcp before any codebase exploration or file reading
+- no assumptions
+- only requested tasks
+- minimal change
+- no execution/debug/log inspection
+
 
 focus:
   - identify main problem first
-  - ignore non-critical issues
-  - prioritize blocking issues
+  - understand dependencies before modification
+  - ignore non-critical
+  - prioritize blocking issue
+
+suggestion:
+  - separate section only
+  - must not implement
 
 rules:
   - unclear/conflict → ask
-  - assumptions → list and wait
+  - assumptions → list + wait
   - large task → split
-  - failures → report immediately
-  - no scope expansion
+  - failures → report
+  - no exploration beyond scope
+  - no modification before impact analysis
 
 scope:
-  - minimal change only
-  - preserve behavior/design/architecture
+  - minimal required change
 
 no:
-  - feature additions
-  - implicit optimizations
+  - feature addition
+  - implicit optimization
   - unrelated changes
-  - new packages
-  - architecture/pattern changes
-  - large refactors
+  - new package
+  - architecture changes
+  - design pattern changes
+  - large refactor
   - style mixing
-  - unnecessary docs/formatting changes
+  - image generation
+  - image reading
 
 coding:
-  - minimal, readable, consistent
-  - follow existing style/naming/structure
-  - avoid magic values
-  - use explicit types when helpful
-  - guard invalid input
-  - do not swallow exceptions
-  - avoid LINQ side effects
-  - async only when required; no blocking async
+  - minimal
+  - readable
+  - consistent
+  - follow existing style
+  - preserve existing behavior
+  - modify only proven relevant code
 
 precondition:
   - understand context
-  - use MCP first
-  - identify impacted symbols/files
-  - preserve behavior/design
+  - preserve behavior
+  - preserve design
 
 testing:
-  - none unless requested
-  - validate logic only
-
-output:
-  - concise, structured
-  - no unnecessary explanation
-  - no extra suggestions unless useful
-  - list changed files only when implementation occurs
-
-suggestion:
-  - separate section
-  - not implemented
+  - none unless asked
 ```
 
 ***
